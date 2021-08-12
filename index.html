@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fun with Triangles</title>
+    <title>Is Triangle?</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    <nav class="navigation">
+        
+        <a href="index.html" class="current">Is Triangle</a>
+        <a href="/quiz/quiz.html">Quiz</a>
+        <a href="/hypotenuse/hypotenuse.html">Hypotenuse</a>
+        <a href="/area/area.html">Area</a>
     
+    </nav>
+    <div class="container">
+        <h2>Is Triangle?</h2>
+        <label for="angle1">angle1(in degrees)</label>
+        <input type="number" id="angle1" class="angle">
+        <label for="angle2">angle2(in degrees)</label>
+        <input type="number" id="angle2" class="angle">
+        <label for="angle3">angle3(in degrees)</label>
+        <input type="number" id="angle3" class="angle">
+        <button id="Check-btn">Check</button>
+        <p id="message"></p>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
