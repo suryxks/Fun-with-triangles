@@ -9,6 +9,7 @@ body{
     font-family: 'Oswald', sans-serif;
     background-color: var(--primary-dark);
     color: var(--txt-color);
+    
 }
 a{
     color: var(--txt-color);
@@ -41,11 +42,22 @@ a{
     border-radius: 0.3rem;
 }
 button{
+    
     font-size: large;
     background-color: var(--primary-color);
     color: var(--txt-color);
     border-radius: 0.2rem solid var(--primary-color);
     border-radius:2px;
+    margin:auto;
     
-    
+}
+.quiz-container{
+    width:80%;
+    border:2px solid var(--primary-color);
+    padding:1rem;
+    border-radius:0.3rem;
+    margin:1rem auto;
+}
+#quiz-message{
+  text-align: center;
 }
