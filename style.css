@@ -34,12 +34,19 @@ a{
 .current{
     text-decoration: underline;
 }
-input{
+.side{
     display:block;
     margin:1rem auto;
     width:70%;
     height:25px;
     border-radius: 0.3rem;
+}
+.angle{
+    display:block;
+    margin:1rem auto;
+    width:70%;
+    height:25px;
+    border-radius: 0.3rem;   
 }
 
 button{
@@ -53,6 +60,7 @@ button{
     
 }
 .txt-container{
+    
     width:80%;
     border:2px solid var(--primary-color);
     padding:1rem;
