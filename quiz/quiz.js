@@ -1,7 +1,7 @@
 var checkBtn=document.querySelector("#quiz-check");
 var message=document.querySelector("#quiz-message");
 var form=document.querySelector(".quiz-form");
-const ans = ['90', 'right angled']; 
+const ans = ['90', 'right angled','180','1','80','60']; 
 function calculateScore(){
     var score=0;
     var index=0;
