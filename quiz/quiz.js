@@ -1,11 +1,11 @@
-var checkBtn=document.querySelector("#quiz-check");
-var message=document.querySelector("#quiz-message");
-var form=document.querySelector(".quiz-form");
+let checkBtn=document.querySelector("#quiz-check");
+let message=document.querySelector("#quiz-message");
+let form=document.querySelector(".quiz-form");
 const ans = ['90', 'right angled','180','1','80','60']; 
-function calculateScore(){
-    var score=0;
-    var index=0;
-    var formData=new FormData(form);
+const calculateScore=()=>{
+    let score=0;
+    let index=0;
+    let formData=new FormData(form);
     for(let value of formData.values()){
         if(value==ans[index]){
             score=score+1;
